@@ -141,9 +141,9 @@ calcular" en lugar de inventar un valor.
 ---
 
 ## Capturas de pantalla
+cursor:
+<img width="1905" height="1023" alt="image" src="https://github.com/user-attachments/assets/eacaa176-3200-49a3-a850-4765d6de7050" />
+replit desplegado:
+<img width="1626" height="990" alt="image" src="https://github.com/user-attachments/assets/8c65bc51-21bf-4bef-b0c2-712f8c4d65cf" />
 
-*Agregar antes de entregar:*
 
-- [ ] Cursor con el código y el chat del agente
-- [ ] App corriendo localmente con un ejemplo de input/output
-- [ ] Replit con la app desplegada
