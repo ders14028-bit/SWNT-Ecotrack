@@ -1,0 +1,24 @@
+# EcoTrack - Reglas del Proyecto
+
+## Stack
+- Lenguaje: Python 3.11+
+- Framework: Streamlit
+- Sin frameworks de frontend adicionales (nada de HTML/CSS complejo)
+
+## Estilo de código
+- Código modular: separar en archivos/funciones claras (extracción, cálculo, interfaz)
+- Nombres de variables y funciones en español o inglés, pero consistentes en todo el proyecto
+- Comentarios breves explicando el "por qué", no el "qué"
+- Evitar funciones de más de ~30 líneas; dividir en funciones más pequeñas
+
+## Arquitectura esperada
+- app.py: interfaz de Streamlit (input de texto, botón, resultados)
+- extractor.py: función que llama al LLM y devuelve JSON estructurado de actividades
+- calculadora.py: función que aplica los factores de emisión fijos sobre el JSON
+- factores.py: diccionario de factores de emisión por categoría
+
+## Comportamiento esperado de la IA (Cursor)
+- Explicar brevemente cada cambio antes de aplicarlo
+- Si un error ocurre, proponer la solución más simple primero, no reescribir todo el proyecto
+- No usar librerías externas innecesarias; preferir la librería estándar de Python cuando sea posible
+- Mantener el histórico del día en st.session_state (no base de datos por ahora)
